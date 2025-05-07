@@ -1,0 +1,83 @@
+.zen-antique-regular {
+    font-family: "Zen Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Zen Antique";
+    font-size: 10rem;
+    color: #e5e9f0;
+    background-color: #3b4252;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+}
+.smalltext{
+    font-size: 1rem;
+    opacity: 50%;
+    padding-top: 1rem;
+}
+.lightmode {
+    color: #3b4252;
+    background-color: #d8dee9;
+
+  }
+.darkmode {
+    background-color: #3b4252;
+    color: #e5e9f0;
+  }
+.date {
+    font-size: 4rem;
+    opacity: 50%;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-top: 2rem;
+} 
+.button1{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    border-style:hidden;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.25), 0 10px 20px 0 rgba(0,0,0,0.20);
+    background-color: #3b4252;
+}
+.button2{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    border-style:hidden;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.25), 0 10px 20px 0 rgba(0,0,0,0.20);
+    background-color: #d8dee9;
+}
+.button3{
+    width: 8rem;
+    height: 2rem;
+    background: none;
+    border: none;
+    color: #3b4252;
+    font-size: 0.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 650;
+    background:#9096a1;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.45rem;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.20), 0 5px 20px 0 rgba(0,0,0,0.15);
+}

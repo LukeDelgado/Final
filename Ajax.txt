@@ -1,0 +1,4 @@
+<div class="buttons">
+        <button class="button1" type="button" onclick=darkMode()></button>
+        <button class="button2" type="button" onclick=lightMode()></button>
+</div>
